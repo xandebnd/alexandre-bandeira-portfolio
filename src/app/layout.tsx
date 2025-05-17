@@ -1,4 +1,4 @@
-import { AosInit } from "@/components/aos-init";
+import { AosInit } from "@/app/_components/aos-init";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";

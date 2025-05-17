@@ -3,7 +3,6 @@
 import Image from "next/image";
 import { useState } from "react";
 
-import Logo from "@/assets/logo-mono.png";
 import { Menu, X } from "lucide-react";
 import Link from "next/link";
 
@@ -18,7 +17,7 @@ const Header = () => {
     <header className="relative mx-auto flex w-full max-w-screen-lg items-center justify-between rounded-lg bg-gradient-to-r from-[#34495E] to-[#2C3E50] p-5 shadow-lg">
       <div className="flex cursor-pointer items-center">
         <Image
-          src={Logo}
+          src="/logo-mono.png"
           alt="Logo de Alexandre Bandeira"
           width={55}
           height={55}

@@ -1,7 +1,5 @@
 import Image from "next/image";
 
-import EstacioLogo from "@/assets/estacio.png";
-
 const Education = () => {
   return (
     <section
@@ -26,7 +24,7 @@ const Education = () => {
           </div>
           <div className="flex-shrink-0">
             <Image
-              src={EstacioLogo}
+              src="/estacio.png"
               alt="Logo da Faculdade Estácio"
               width={150}
               height={150}

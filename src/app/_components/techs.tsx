@@ -1,5 +1,5 @@
+import TechList from "@/app/_components/tech-list";
 import { techs } from "@/app/_constants/techs";
-import TechList from "@/components/tech-list";
 
 const Techs = () => {
   return (

@@ -1,4 +1,4 @@
-import ButtonBackHome from "@/components/button-back-home";
+import ButtonBackHome from "@/app/_components/button-back-home";
 import { FiGithub, FiInstagram, FiLinkedin } from "react-icons/fi";
 
 const Contact = () => {
