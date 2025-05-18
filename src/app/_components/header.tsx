@@ -22,10 +22,6 @@ const Header = () => {
           width={55}
           height={55}
         />
-        {/* <p className="hidden md:flex flex-col leading-4 text-center text-lg ml-2">
-					<span className="font-bold text-xl">Alexandre</span>
-					<span className="text-base text-gray-300">Bandeira</span>
-				</p> */}
       </div>
 
       <button type="button" className="z-50 md:hidden" onClick={toggleMenu}>
