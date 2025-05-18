@@ -1,13 +1,9 @@
 import Image from "next/image";
+import Section from "./section";
 
 const Education = () => {
   return (
-    <section
-      id="formação"
-      className="w-full rounded-lg bg-gradient-to-r from-[#34495E] to-[#2C3E50] p-10 shadow-lg"
-      data-aos="fade-right"
-      data-aos-duration="1000"
-    >
+    <Section id="formação" data-aos="fade-right" data-aos-duration="1000">
       <h2 className="mb-8 text-center text-4xl font-bold text-white">
         Formação Acadêmica
       </h2>
@@ -33,7 +29,7 @@ const Education = () => {
           </div>
         </div>
       </div>
-    </section>
+    </Section>
   );
 };
 

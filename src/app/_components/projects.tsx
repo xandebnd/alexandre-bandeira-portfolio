@@ -1,6 +1,7 @@
 import ProjectItem from "@/app/_components/project-item";
 import type { Project } from "@/types/Project";
 import { useEffect, useState } from "react";
+import Section from "./section";
 
 const Projects = () => {
   const [repos, setRepos] = useState<Project[]>([]);
@@ -18,12 +19,7 @@ const Projects = () => {
   }, []);
 
   return (
-    <section
-      id="projetos"
-      className="w-full rounded-lg bg-gradient-to-r from-[#34495E] to-[#2C3E50] p-10 shadow-lg"
-      data-aos="fade-up"
-      data-aos-duration="1000"
-    >
+    <Section id="projetos" data-aos="fade-up" data-aos-duration="1000">
       <h2 className="mb-8 text-center text-4xl font-bold">Projetos</h2>
       <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
         {repos
@@ -33,7 +29,7 @@ const Projects = () => {
             <ProjectItem project={project} key={project.id} />
           ))}
       </div>
-    </section>
+    </Section>
   );
 };
 

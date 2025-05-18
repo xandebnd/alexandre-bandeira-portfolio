@@ -1,20 +1,12 @@
 import type { Project } from "@/types/Project";
 import { FiGithub, FiGlobe } from "react-icons/fi";
+import { languageColors } from "../_constants/language-colors";
 
 interface ProjectItemProps {
   project: Project;
 }
 
 const ProjectItem = ({ project }: ProjectItemProps) => {
-  const languageColors: { [key: string]: string } = {
-    TypeScript: "text-blue-500 border-blue-500",
-    JavaScript: "text-yellow-400 border-yellow-400",
-    HTML: "text-orange-500 border-orange-500",
-    CSS: "text-blue-300 border-blue-300",
-    Python: "text-green-500 border-green-500",
-    Default: "text-gray-400 border-gray-400",
-  };
-
   return (
     <div
       key={project.id}

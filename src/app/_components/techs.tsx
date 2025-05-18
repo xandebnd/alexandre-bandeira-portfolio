@@ -1,13 +1,10 @@
 import TechList from "@/app/_components/tech-list";
 import { techs } from "@/app/_constants/techs";
+import Section from "./section";
 
 const Techs = () => {
   return (
-    <section
-      className="w-full rounded-lg bg-gradient-to-r from-[#34495E] to-[#2C3E50] p-10 shadow-lg"
-      data-aos="fade-left"
-      data-aos-duration="1000"
-    >
+    <Section data-aos="fade-left" data-aos-duration="1000">
       <h2 className="mb-8 text-center text-4xl font-bold text-white">
         Tecnologias
       </h2>
@@ -17,7 +14,7 @@ const Techs = () => {
         <TechList title="Backend" techs={techs.backend} />
         <TechList title="Banco de Dados" techs={techs.database} />
       </div>
-    </section>
+    </Section>
   );
 };
 
