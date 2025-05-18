@@ -1,4 +1,3 @@
-import { getRepos } from "@/app/_actions/get-repos";
 import ProjectItem from "@/app/_components/project-item";
 import type { Project } from "@/types/Project";
 import { useEffect, useState } from "react";
