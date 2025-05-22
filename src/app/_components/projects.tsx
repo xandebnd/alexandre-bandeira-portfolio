@@ -24,7 +24,7 @@ const Projects = () => {
       <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
         {repos
           .filter(({ description }) => description)
-          .slice(0, 5)
+          .slice(0, 6)
           .map((project) => (
             <ProjectItem project={project} key={project.id} />
           ))}
