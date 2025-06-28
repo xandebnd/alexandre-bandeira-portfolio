@@ -9,16 +9,16 @@ import Projects from "@/app/_components/projects";
 import Techs from "@/app/_components/techs";
 
 export default function Home() {
-  return (
-    <>
-      <Header />
-      <Main>
-        <AboutMe />
-        <Projects />
-        <Education />
-        <Techs />
-      </Main>
-      <Footer />
-    </>
-  );
+	return (
+		<>
+			<Header />
+			<Main>
+				<AboutMe />
+				<Projects />
+				<Education />
+				<Techs />
+			</Main>
+			<Footer />
+		</>
+	);
 }
